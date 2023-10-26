@@ -1,0 +1,32 @@
+  .bouncing-dot-loader {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    background-color: #3498db;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    animation: bounce 1.5s infinite ease-in-out;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: -1s;
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: -0.5s;
+  }
+  
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }

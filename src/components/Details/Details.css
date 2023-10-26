@@ -1,0 +1,39 @@
+.details {
+    width: 300px;
+  }
+  
+  .details-img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+  }
+  
+  .details-img-loader {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: #e5e5e5;
+  }
+  
+  .details-text {
+    border: 1px solid #959595;
+    border-radius: 6px;
+  }
+  
+  .details-text-item {
+    padding: 12px 24px;
+    border-bottom: 1px solid #959595;
+  }
+  
+  .details-text-item:last-child{
+    border-bottom: none;
+  }
+  
+  
+  
+  .details-text-title {
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 24px;
+  }

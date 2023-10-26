@@ -1,0 +1,32 @@
+.list-container {
+    list-style-type: none;
+    width: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    margin-right: 32px;
+  }
+  
+  .list-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color .2s ease;
+  }
+  
+  .list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-item:hover {
+    background-color: #cacaca;
+  }
+  
+  .selected {
+    background-color: #777777;
+    color: #fff;
+    cursor: auto;
+  }
+  
+  .selected:hover {
+    background-color: #7f7f7f;
+  }
